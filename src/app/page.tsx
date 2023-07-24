@@ -30,7 +30,7 @@ export default function Home() {
       <div className="hidden lg:block">
         <Navbar></Navbar>
         <div
-          className={`transition-transform duration-500 ease-in-out transform ml-12 xl:ml-24 mt-36 bg-[#00000040]   border-l-4 border-[#A041FF] w-fit ${
+          className={`transition-transform duration-500 ease-in-out transform ml-12 xl:ml-24 mt-36 bg-[#00000020]   border-l-4 border-[#A041FF] w-fit ${
             show ? "translate-x-0" : "-translate-x-full"
           }`}
         >
