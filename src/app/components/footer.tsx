@@ -9,9 +9,9 @@ const Footer: React.FC = () => {
   const [expand2, setExpand2] = useState(false);
 
   return (
-    <div>
+    <div className="">
       <div
-        className={`transition-all duration-500 ease-in-out absolute inset-x-0 bottom-0 h-28 bg-white hover:h-48 ${
+        className={`transition-all duration-[0.8s] ease-in-out absolute z-50 inset-x-0 bottom-0 h-28 bg-white hover:h-48 ${
           expand ? "h-48" : "h-28"
         }`}
         onMouseEnter={() => setExpand(true)}
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
         )}
       </div>
       <div
-        className={`transition-all duration-1000 ease-in-out absolute inset-x-0 bottom-0 h-14 bg-white hover:h-48 ${
+        className={`transition-all duration-1000 ease-in-out absolute z-50 inset-x-0 bottom-0 h-14 bg-white hover:h-48 ${
           expand2 ? "h-48" : "h-12"
         }`}
         onMouseEnter={() => setExpand2(true)}
