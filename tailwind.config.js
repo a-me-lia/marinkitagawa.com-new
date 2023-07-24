@@ -17,16 +17,16 @@ module.exports = {
         sans: ["var(--font-inter)"],
       },
       animation: {
-        marqueeSmall: 'marquee 90s linear infinite',
+        marqueeSmall: "marquee 90s linear infinite",
       },
       keyframes: {
         marquee: {
-          '0%': { transform: 'translateX(20%)' },
-          '24%': { transform: 'translateX(-100%)' },
-          '43%': { transform: 'translateX(-200%)' },
-          '62%': { transform: 'translateX(-300%)' },
-          '81%': { transform: 'translateX(-400%)' },
-          '100%': { transform: 'translateX(-500%)' },
+          "0%": { transform: "translateX(20%)" },
+          "24%": { transform: "translateX(-100%)" },
+          "43%": { transform: "translateX(-200%)" },
+          "62%": { transform: "translateX(-300%)" },
+          "81%": { transform: "translateX(-400%)" },
+          "100%": { transform: "translateX(-500%)" },
         },
       },
     },

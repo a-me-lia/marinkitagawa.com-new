@@ -36,7 +36,13 @@ export default function Home() {
             show ? "translate-x-0" : "-translate-x-full"
           }`}
         >
-                  <Headline href='/' text1='Marin Kitagawa feature anime, "My Dress Up Darling" slated for second season in Spring 2024 / / /' text2=' Dress Up Darling manga reached 4,500,000 physical copies in circulation / / /' text3=' Lawmakers concerned over their claim to power as a growing percentage of the population aware of cute blonde 2D girls / / /' text4=' "TIME FOR ME TO TAKE MY LOVE INTO THE 3D WORLD!!!!" - Marin Kurokawa'></Headline>
+          <Headline
+            href="/"
+            text1='Marin Kitagawa feature anime, "My Dress Up Darling" slated for second season in Spring 2024 / / /'
+            text2=" Dress Up Darling manga reached 4,500,000 physical copies in circulation / / /"
+            text3=" Lawmakers concerned over their claim to power as a growing percentage of the population aware of cute blonde 2D girls / / /"
+            text4=' "TIME FOR ME TO TAKE MY LOVE INTO THE 3D WORLD!!!!" - Marin Kurokawa'
+          ></Headline>
           <div className="font-sans flex flex-col px-8 py-2">
             <h1 className="text-[32px] font-semibold">
               Industry ranked #1 girl FY 2023
