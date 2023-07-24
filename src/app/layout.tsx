@@ -22,6 +22,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Marin is the cutest!</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+      </head>
       <body
         className={`${inter.variable} font-sans  ${plexSans.variable} font-plex`}
       >
