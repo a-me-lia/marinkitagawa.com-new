@@ -25,8 +25,8 @@ export default function Home() {
         backgroundSize: "55%",
       }}
     >
-      <div className="block lg:hidden">
-        im also too lazy to make the mobile layout too
+      <div className="block lg:hidden self-center w-2/3">
+        im also too lazy to make the mobile layout too. Please open this website on a laptop of desktop computer.
       </div>
       <div className="hidden lg:block">
         <Navbar></Navbar>
