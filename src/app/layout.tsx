@@ -11,8 +11,8 @@ const plexSans = IBM_Plex_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Marin Kitagawa (dot) com",
-  description: "Marin is the cutest!",
+  title: "Marin Kitagawa",
+  description: "Marin Kitagawa's website",
 };
 
 export default function RootLayout({
@@ -27,10 +27,10 @@ export default function RootLayout({
           property="og:image"
           content="https://www.marinkitagawa.com/_next/image?url=%2Fmarin.png&w=3840&q=75"
         />
-        <meta property="og:title" content="Marin is the cutest!" />
+        <meta property="og:title" content="Marin Kitagawa's Website" />
         <meta
           property="og:description"
-          content="The official unofficial site of our goddess Marin Kitagawa"
+          content="Marin Kitagawa's website"
         />
         <meta property="og:url" content="https://marinkitagawa.com"></meta>
         <title>Marin is the cutest!</title>
