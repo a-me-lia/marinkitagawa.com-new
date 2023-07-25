@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
+import { Inter, IBM_Plex_Sans, Indie_Flower } from "next/font/google";
 import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -9,6 +9,12 @@ const plexSans = IBM_Plex_Sans({
   weight: ["400", "500", "700"],
   variable: "--font-ibm",
 });
+const indieFlower = Indie_Flower({
+  subsets: ["latin"],
+  weight: ["400"],
+  variable: "--font-indie-flower",
+});
+
 
 export const metadata: Metadata = {
   title: "Marin Kitagawa",
@@ -37,7 +43,7 @@ export default function RootLayout({
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
       </head>
       <body
-        className={`${inter.variable} font-sans  ${plexSans.variable} font-plex`}
+        className={`${inter.variable} font-sans  ${plexSans.variable} font-ple ${indieFlower.variable} font-plex`}
       >
         <div className="absolute bottom-0 text-[12px] text-black z-50 right-24">
           Designed and Developed by{" "}

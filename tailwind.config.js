@@ -15,6 +15,7 @@ module.exports = {
       fontFamily: {
         mono: ["var(--font-ibm)"],
         sans: ["var(--font-inter)"],
+        serif: ["var(--font-indie-flower)"],
       },
       animation: {
         marqueeSmall: "marquee 90s linear infinite",
