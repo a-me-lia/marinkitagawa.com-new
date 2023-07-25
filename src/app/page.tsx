@@ -50,11 +50,11 @@ export default function Home() {
             <p>Source: Marin Kurokawa said so.</p>
           </div>
         </div>
-        <div className="absolute right-[-72px] bottom-28">
-          <div className="relative w-[760px] h-[500px] z-10">
-            <Image src="/marin.png" alt="marin" fill></Image>
+        <div className="absolute right-0 bottom-28">
+          <div className="relative w-[580px] h-[500px] z-10">
+            <Image src="/marin.png" alt="marin" fill className="object-cover"></Image>
           </div>
-          <div className="h-24 w-64 bg-white absolute right-56 bottom-56 z-0"></div>
+          <div className="h-24 w-64 bg-white absolute right-40 bottom-56 z-0"></div>
         </div>
         <Footer></Footer>
       </div>
